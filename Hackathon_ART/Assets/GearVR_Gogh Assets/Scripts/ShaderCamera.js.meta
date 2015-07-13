@@ -1,9 +1,0 @@
-fileFormatVersion: 2
-guid: a5683d9d2bd0743df91f80119dfb0b3e
-MonoImporter:
-  serializedVersion: 2
-  defaultReferences:
-  - edgeDetectShader: {fileID: 4800000, guid: 19df4fc4cc51642e5874e02fb6772c64, type: 3}
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
