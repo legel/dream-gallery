@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F4DC0BA8-E94B-55E2-6B02-1F3E2758BE10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.1.0f3</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_1_0;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_1_0;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="LeapCSharp.NET3.5">
+      <HintPath>Assets\Plugins\LeapCSharp.NET3.5.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\GearVR_Gogh Assets\Scripts\Canvas_Script.cs" />
+    <Compile Include="Assets\GearVR_Gogh Assets\Scripts\FPSScript.cs" />
+    <Compile Include="Assets\GearVR_Gogh Assets\Scripts\Gallery_Camera_Script.cs" />
+    <Compile Include="Assets\GearVR_Gogh Assets\Scripts\InputControl_Script.cs" />
+    <Compile Include="Assets\GearVR_Gogh Assets\Scripts\IntroControlScript.cs" />
+    <Compile Include="Assets\GearVR_Gogh Assets\Scripts\IntroLetterScript.cs" />
+    <Compile Include="Assets\GearVR_Gogh Assets\Scripts\IntroPieceScript.cs" />
+    <Compile Include="Assets\GearVR_Gogh Assets\Scripts\ShaderCamera_Script.cs" />
+    <Compile Include="Assets\GearVR_Gogh Assets\Scripts\Utility.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\DemoResources\Scripts\BlocksPlaneGenerator.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\DemoResources\Scripts\MovementManager.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\DemoResources\Scripts\RandomBlocksGenerator.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\Scripts\LeapCameraAlignment.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\Scripts\OVRReset.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\SystemWipe\QuickSwitcher.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\SystemWipe\SystemWipeRecognizerListener.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\SystemWipe\SystemWipeRecognizerNative.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\DataBinderExamples\DialToTextBinder.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\DataBinderExamples\SliderToTextDataBinder.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\DataBinderExamples\ToggleToTextDataBinder.cs" />
+    <Compile Include="Assets\LeapMotion+OVR\Widgets\Scripts\WidgetsEnabler.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\AerodynamicLeaf.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\ChangeMaterialOnGrab.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\CubeWave.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\FloatingStem.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\FlowerBloom.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\FlowerGrower.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\HandCycler.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\HandDetector.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\IgnoreInternalCollisions.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\ParticlesOnCollision.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\PetalMesh.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\PressAnyKeyToReset.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\RecordingControls.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\ResetCollisionsOnBreak.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\StemMesh.cs" />
+    <Compile Include="Assets\LeapMotion\DemoResources\Scripts\VoxelSheet.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\HandController.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugFinger.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugHand.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\FingerModel.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\HandFader.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\HandModel.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\PolyFinger.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\PolyHand.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\RiggedFinger.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\RiggedHand.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidFinger.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidHand.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalFinger.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalHand.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\LeapDeviceInfo.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\LeapImageBasedMaterial.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\LeapImageRetriever.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Tools\ToolModel.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\ConfidenceTransparency.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\DisconnectionNotice.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\EnableDepthBuffer.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\EnableUpdateOrdering.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\FitHeightToScreen.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\GrabbableObject.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\GrabbingHand.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\KeyToggleEnabled.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapRecorder.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\MagneticPinch.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\StretchToScreen.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\TriggerDrawing.cs" />
+    <Compile Include="Assets\LeapMotion\Scripts\Utils\Utils.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Button\ButtonBase.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Button\ButtonToggleBase.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\DemoScripts\ButtonDemoGraphics.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\DemoScripts\ButtonDemoToggle.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\DemoScripts\SliderDemo.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\DemoScripts\SliderDemoGraphics.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Dial\DatePickerHideVolume.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Dial\DialGraphics.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Dial\DialModeBase.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Dial\FadeTextByRotation.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Dial\HilightTextVolume.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Events\EventArg.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Interfaces\AnalogInteractionHandler.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Interfaces\BinaryInteractionHandler.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Interfaces\DataBinder.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Interfaces\IDataBoundWidget.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Physics\LeapPhysicsBase.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Physics\LeapPhysicsSpring.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Scroll\ScrollBase.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Slider\SliderBase.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\SliderActivationManager.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Utils\ExponentialSmoothing.cs" />
+    <Compile Include="Assets\LeapMotion\Widgets\Scripts\Utils\FrameRateControls.cs" />
+    <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
+    <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
+    <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
+    <Compile Include="Assets\OVR\Scripts\OVRManager.cs" />
+    <Compile Include="Assets\OVR\Scripts\OVRPluginEvent.cs" />
+    <Compile Include="Assets\OVR\Scripts\OVRTracker.cs" />
+    <Compile Include="Assets\OVR\Scripts\OvrCapi.cs" />
+    <Compile Include="Assets\OVR\Scripts\Util\OVRCrosshair.cs" />
+    <Compile Include="Assets\OVR\Scripts\Util\OVRGUI.cs" />
+    <Compile Include="Assets\OVR\Scripts\Util\OVRGamepadController.cs" />
+    <Compile Include="Assets\OVR\Scripts\Util\OVRGridCube.cs" />
+    <Compile Include="Assets\OVR\Scripts\Util\OVRMainMenu.cs" />
+    <Compile Include="Assets\OVR\Scripts\Util\OVRPlayerController.cs" />
+    <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
+    <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
+    <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+    <Compile Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+    <Compile Include="Assets\Volumetric\LightShafts.Resources.cs" />
+    <Compile Include="Assets\Volumetric\LightShafts.Utils.cs" />
+    <Compile Include="Assets\Volumetric\LightShafts.cs" />
+    <Compile Include="Assets\_Scripts\CanvasController.cs" />
+    <Compile Include="Assets\_Scripts\Combination.cs" />
+    <Compile Include="Assets\_Scripts\Play.cs" />
+    <Compile Include="Assets\_Scripts\testPlay.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\GearVR_Gogh Assets\Materials\BumpSpecRim.shader" />
+    <None Include="Assets\GearVR_Gogh Assets\Materials\EdgeDetect.shader" />
+    <None Include="Assets\GearVR_Gogh Assets\Materials\GoghShader.shader" />
+    <None Include="Assets\GearVR_Gogh Assets\Materials\SignedDistanceField.shader" />
+    <None Include="Assets\LeapMotion\DemoResources\ScrollerText.txt" />
+    <None Include="Assets\LeapMotion\Dependencies.txt" />
+    <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-BasicOutline.shader" />
+    <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Lighted.shader" />
+    <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-LightedOutline.shader" />
+    <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />
+    <None Include="Assets\LeapMotion\Resources\ImageHandHighlight.shader" />
+    <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
+    <None Include="Assets\LeapMotion\Resources\PassthroughBackground.shader" />
+    <None Include="Assets\LeapMotion\Resources\PassthroughForeground.shader" />
+    <None Include="Assets\LeapMotion\Resources\ThresholdOverlay.shader" />
+    <None Include="Assets\LeapMotion\Shaders\RimShading.shader" />
+    <None Include="Assets\LeapMotion\Version.txt" />
+    <None Include="Assets\LeapMotion\Widgets\Shaders\SelfIllumAlpha.shader" />
+    <None Include="Assets\LeapMotion\readme.txt" />
+    <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+    <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\assets\donotdelete.txt" />
+    <None Include="Assets\Plugins\SystemWipeRecognizerDll.bundle\Contents\MacOS\version.txt" />
+    <None Include="Assets\Plugins\donotdelete.txt" />
+    <None Include="Assets\Plugins\x86\donotdelete.txt" />
+    <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Prefabs\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Volumetric\ColorFilter.shader" />
+    <None Include="Assets\Volumetric\Coord.shader" />
+    <None Include="Assets\Volumetric\Depth.shader" />
+    <None Include="Assets\Volumetric\DepthBreaks.shader" />
+    <None Include="Assets\Volumetric\FinalInterpolation.shader" />
+    <None Include="Assets\Volumetric\InterpolateAlongRays.shader" />
+    <None Include="Assets\Volumetric\Raymarch.shader" />
+    <None Include="Assets\Volumetric\SamplePositions.shader" />
+    <None Include="Assets\Volumetric\Shared.cginc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

@@ -1,0 +1,326 @@
+fileFormatVersion: 2
+guid: 1fd12807267b84167af64bd548004a73
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 1
+    100002: 1_2
+    100004: A
+    100006: A_2
+    100008: B
+    100010: BRAVO
+    100012: Bravo
+    100014: Cap_1
+    100016: Cap_1_10
+    100018: Cap_1_2
+    100020: Cap_1_3
+    100022: Cap_1_4
+    100024: Cap_1_5
+    100026: Cap_1_6
+    100028: Cap_1_7
+    100030: Cap_1_8
+    100032: Cap_1_9
+    100034: Cap_2
+    100036: Cap_2_10
+    100038: Cap_2_2
+    100040: Cap_2_3
+    100042: Cap_2_4
+    100044: Cap_2_5
+    100046: Cap_2_6
+    100048: Cap_2_7
+    100050: Cap_2_8
+    100052: Cap_2_9
+    100054: D
+    100056: E
+    100058: I
+    100060: M
+    100062: MEDIA
+    100064: Media
+    100066: O
+    100068: R
+    100070: V
+    100072: //RootNode
+    400000: 1
+    400002: 1_2
+    400004: A
+    400006: A_2
+    400008: B
+    400010: BRAVO
+    400012: Bravo
+    400014: Cap_1
+    400016: Cap_1_10
+    400018: Cap_1_2
+    400020: Cap_1_3
+    400022: Cap_1_4
+    400024: Cap_1_5
+    400026: Cap_1_6
+    400028: Cap_1_7
+    400030: Cap_1_8
+    400032: Cap_1_9
+    400034: Cap_2
+    400036: Cap_2_10
+    400038: Cap_2_2
+    400040: Cap_2_3
+    400042: Cap_2_4
+    400044: Cap_2_5
+    400046: Cap_2_6
+    400048: Cap_2_7
+    400050: Cap_2_8
+    400052: Cap_2_9
+    400054: D
+    400056: E
+    400058: I
+    400060: M
+    400062: MEDIA
+    400064: Media
+    400066: O
+    400068: R
+    400070: V
+    400072: //RootNode
+    2300000: A
+    2300002: A_2
+    2300004: B
+    2300006: Cap_1
+    2300008: Cap_1_10
+    2300010: Cap_1_2
+    2300012: Cap_1_3
+    2300014: Cap_1_4
+    2300016: Cap_1_5
+    2300018: Cap_1_6
+    2300020: Cap_1_7
+    2300022: Cap_1_8
+    2300024: Cap_1_9
+    2300026: Cap_2
+    2300028: Cap_2_10
+    2300030: Cap_2_2
+    2300032: Cap_2_3
+    2300034: Cap_2_4
+    2300036: Cap_2_5
+    2300038: Cap_2_6
+    2300040: Cap_2_7
+    2300042: Cap_2_8
+    2300044: Cap_2_9
+    2300046: D
+    2300048: E
+    2300050: I
+    2300052: M
+    2300054: O
+    2300056: R
+    2300058: V
+    3300000: A
+    3300002: A_2
+    3300004: B
+    3300006: Cap_1
+    3300008: Cap_1_10
+    3300010: Cap_1_2
+    3300012: Cap_1_3
+    3300014: Cap_1_4
+    3300016: Cap_1_5
+    3300018: Cap_1_6
+    3300020: Cap_1_7
+    3300022: Cap_1_8
+    3300024: Cap_1_9
+    3300026: Cap_2
+    3300028: Cap_2_10
+    3300030: Cap_2_2
+    3300032: Cap_2_3
+    3300034: Cap_2_4
+    3300036: Cap_2_5
+    3300038: Cap_2_6
+    3300040: Cap_2_7
+    3300042: Cap_2_8
+    3300044: Cap_2_9
+    3300046: D
+    3300048: E
+    3300050: I
+    3300052: M
+    3300054: O
+    3300056: R
+    3300058: V
+    4300000: M
+    4300002: Cap_1
+    4300004: Cap_2
+    4300006: E
+    4300008: Cap_1_2
+    4300010: Cap_2_2
+    4300012: D
+    4300014: Cap_1_3
+    4300016: Cap_2_3
+    4300018: I
+    4300020: Cap_1_4
+    4300022: Cap_2_4
+    4300024: A
+    4300026: Cap_1_5
+    4300028: Cap_2_5
+    4300030: B
+    4300032: Cap_1_6
+    4300034: Cap_2_6
+    4300036: R
+    4300038: Cap_1_7
+    4300040: Cap_2_7
+    4300042: A_2
+    4300044: Cap_1_8
+    4300046: Cap_2_8
+    4300048: V
+    4300050: Cap_1_9
+    4300052: Cap_2_9
+    4300054: O
+    4300056: Cap_1_10
+    4300058: Cap_2_10
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bravo
+        weight: 1
+      - path: Bravo/1_2
+        weight: 1
+      - path: Bravo/1_2/BRAVO
+        weight: 1
+      - path: Bravo/1_2/BRAVO/A_2
+        weight: 1
+      - path: Bravo/1_2/BRAVO/A_2/Cap_1_8
+        weight: 1
+      - path: Bravo/1_2/BRAVO/A_2/Cap_2_8
+        weight: 1
+      - path: Bravo/1_2/BRAVO/B
+        weight: 1
+      - path: Bravo/1_2/BRAVO/B/Cap_1_6
+        weight: 1
+      - path: Bravo/1_2/BRAVO/B/Cap_2_6
+        weight: 1
+      - path: Bravo/1_2/BRAVO/O
+        weight: 1
+      - path: Bravo/1_2/BRAVO/O/Cap_1_10
+        weight: 1
+      - path: Bravo/1_2/BRAVO/O/Cap_2_10
+        weight: 1
+      - path: Bravo/1_2/BRAVO/R
+        weight: 1
+      - path: Bravo/1_2/BRAVO/R/Cap_1_7
+        weight: 1
+      - path: Bravo/1_2/BRAVO/R/Cap_2_7
+        weight: 1
+      - path: Bravo/1_2/BRAVO/V
+        weight: 1
+      - path: Bravo/1_2/BRAVO/V/Cap_1_9
+        weight: 1
+      - path: Bravo/1_2/BRAVO/V/Cap_2_9
+        weight: 1
+      - path: Media
+        weight: 1
+      - path: Media/1
+        weight: 1
+      - path: Media/1/MEDIA
+        weight: 1
+      - path: Media/1/MEDIA/A
+        weight: 1
+      - path: Media/1/MEDIA/A/Cap_1_5
+        weight: 1
+      - path: Media/1/MEDIA/A/Cap_2_5
+        weight: 1
+      - path: Media/1/MEDIA/D
+        weight: 1
+      - path: Media/1/MEDIA/D/Cap_1_3
+        weight: 1
+      - path: Media/1/MEDIA/D/Cap_2_3
+        weight: 1
+      - path: Media/1/MEDIA/E
+        weight: 1
+      - path: Media/1/MEDIA/E/Cap_1_2
+        weight: 1
+      - path: Media/1/MEDIA/E/Cap_2_2
+        weight: 1
+      - path: Media/1/MEDIA/I
+        weight: 1
+      - path: Media/1/MEDIA/I/Cap_1_4
+        weight: 1
+      - path: Media/1/MEDIA/I/Cap_2_4
+        weight: 1
+      - path: Media/1/MEDIA/M
+        weight: 1
+      - path: Media/1/MEDIA/M/Cap_1
+        weight: 1
+      - path: Media/1/MEDIA/M/Cap_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
