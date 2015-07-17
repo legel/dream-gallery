@@ -19,7 +19,7 @@ For the actual gallery, we embedded
 We coded LeapVR hand interaction, so a user could select 2 pieces of art to fuse by DeepDream in real-time.
 
 ### Challenges
-We made movies of the art fusions - *e.g.* ["Starry Lisa"](https://youtu.be/ejAgy0uhdHM), ["Disintegration of Screams"](https://youtu.be/eMIvC4DtIMw), ["Surrounded by Artificial Houses"](https://youtu.be/ejAgy0uhdHM) - but didn't have time during the 48 hour hackathon to embed them into Unity3D with LeapVR interaction.
+We made movies of the art fusions - *e.g.* ["Starry Lisa"](https://youtu.be/ejAgy0uhdHM), ["Disintegration of Screams"](https://youtu.be/eMIvC4DtIMw), ["Surrounded by Artificial Houses"](https://youtu.be/ejAgy0uhdHM) - but didn't have time during the 48 hour [hackathon](http://timewavefestival.com/hackathon-hackerteams.html) to embed them into Unity3D with LeapVR interaction.
 
 ### Conclusion
 We used artificial intelligence to create art for a gallery in virtual reality, and designed a natural user interface for exploring its production.  [Sweet dreams](https://github.com/legel/dream-gallery/tree/master/dreams/transformed).
