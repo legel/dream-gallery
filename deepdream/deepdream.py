@@ -7,8 +7,8 @@ from google.protobuf import text_format
 import caffe
 
 
-# put the list you want to merge here, this is an example
-paiting_list = [('leonardo_davinci_1', 'van_gogh'), 
+# list of image names to merge, with first name the base, and second name the target
+painting_list = [('leonardo_davinci_1', 'van_gogh'), 
                 ('van_gogh','salvador_dali' ), 
                 ('salvador_dali', 'edward_munch'), 
                 ('edward_munch', 'doze_green'), 
@@ -26,12 +26,13 @@ model_path = '/caffe-master/models/bvlc_googlenet/' # substitute your path here
 net_fn   = model_path + 'deploy.prototxt'
 param_fn = model_path + 'bvlc_googlenet.caffemodel'
 
-# you can change end here
+# see DeepDream documentation for discussion of different layers that can be used...
+# here we use layer 3 in a 5 layer network, which captures patterns on the level of "shapes"...
+# as opposed to mostly contrasts (1st layer), lines and curves (2nd layer), cooccuring shapes (4th layer)
+# and complete objects (5th layer)...
 end = 'inception_3b/output'  
 
-
-
-for (base_img_name, guide_name) in paiting_list:
+for (base_img_name, guide_name) in painting_list:
 
     # base images dir
     base_img_dir = '/src/original/' + base_img_name + '.jpg'
