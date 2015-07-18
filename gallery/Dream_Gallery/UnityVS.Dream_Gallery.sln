@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Dream_Gallery.CSharp", "UnityVS.Dream_Gallery.CSharp.csproj", "{F529AA65-6797-E59B-481F-3FD7D6C5A2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Dream_Gallery.CSharp.Editor", "UnityVS.Dream_Gallery.CSharp.Editor.csproj", "{19B6F36C-1C9E-D1CD-0EB9-41139EAC915A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F529AA65-6797-E59B-481F-3FD7D6C5A2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F529AA65-6797-E59B-481F-3FD7D6C5A2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F529AA65-6797-E59B-481F-3FD7D6C5A2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F529AA65-6797-E59B-481F-3FD7D6C5A2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B6F36C-1C9E-D1CD-0EB9-41139EAC915A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B6F36C-1C9E-D1CD-0EB9-41139EAC915A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B6F36C-1C9E-D1CD-0EB9-41139EAC915A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B6F36C-1C9E-D1CD-0EB9-41139EAC915A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
