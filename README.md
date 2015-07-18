@@ -17,7 +17,7 @@ For the actual gallery, we embedded
 [12 works of art](https://github.com/legel/dream-gallery/tree/master/dreams/original) into a Unity3D world.
 
 <p style="text-align: center;"><img alt="" src="https://raw.githubusercontent.com/legel/dream-gallery/master/gallery/renders/dream_gallery_2.png" style="height:366px; width:800px" /></p>
-We coded LeapVR hand interaction, so a user could select 2 pieces of art to fuse by DeepDream in real-time.
+We coded [LeapVR](https://www.leapmotion.com/product/vr) hand interaction, so a user could select 2 pieces of art to fuse by DeepDream in real-time.
 
 ### Challenges
 We made movies of the art fusions - *e.g.* ["Starry Lisa"](https://youtu.be/ejAgy0uhdHM), ["Disintegration of Screams"](https://youtu.be/eMIvC4DtIMw), ["Surrounded by Artificial Houses"](https://youtu.be/ejAgy0uhdHM) - but didn't have time during the 48 hour [hackathon](http://timewavefestival.com/hackathon-hackerteams.html) to embed them into Unity3D with LeapVR interaction.
